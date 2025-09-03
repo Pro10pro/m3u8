@@ -1,0 +1,56 @@
+url(&quot;https://verify.naya-est.com/assets/verify/img/background-18.jpg&quot;);"><img src="https://verify.naya-est.com/assets/verify/img/background-18.jpg" alt=""></div>
+                </div>
+                <!--end background-wrapper-->
+            </div>
+            <!--end inner-wrapper-->
+        </div>
+        <!--end outer-wrapper-->
+
+        <script type="text/javascript" src="https://verify.naya-est.com/assets/verify/js/jquery-2.2.1.min.js"></script>
+        <script type="text/javascript" src="https://verify.naya-est.com/assets/verify/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="https://verify.naya-est.com/assets/verify/js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="https://verify.naya-est.com/assets/verify/js/jquery.magnific-popup.min.js"></script>
+        <script type="text/javascript" src="https://verify.naya-est.com/assets/verify/js/jquery.trackpad-scroll-emulator.min.js"></script>
+        <script type="text/javascript" src="https://verify.naya-est.com/assets/verify/js/custom.js"></script>
+    <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;a0882cd43438429c89a848b5418be25f&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}" crossorigin="anonymous"></script>
+
+
+    <script type="text/javascript">
+        if (document.addEventListener) {
+            document.addEventListener('contextmenu', function(e) {
+                alert("You've tried to open context menu"); //here you draw your own menu
+                e.preventDefault();
+            }, false);
+        } else {
+            document.attachEvent('oncontextmenu', function() {
+                alert("You've tried to open context menu");
+                window.event.returnValue = false;
+            });
+        }
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+    <!-- Page specific script -->
+    <script>
+        $(function() {
+            $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox({
+                    alwaysShowClose: true
+                });
+            });
+
+            $('.filter-container').filterizr({
+                gutterPixels: 3
+            });
+            $('.btn[data-filter]').on('click', function() {
+                $('.btn[data-filter]').removeClass('active');
+                $(this).addClass('active');
+            });
+        });
+    </script>
+
+</body></html>
